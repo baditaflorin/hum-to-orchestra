@@ -13,7 +13,7 @@ Use only public build-time configuration:
 
 - `VITE_PUBLIC_BASE` for the Pages base path.
 - package version for display.
-- git commit for display.
+- public GitHub commit metadata fetched at runtime for display.
 
 No API keys, tokens, passwords, or private endpoints are accepted in frontend configuration.
 

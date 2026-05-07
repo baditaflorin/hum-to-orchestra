@@ -34,7 +34,7 @@ npm run smoke
 - Play the realization with Tone.js, lazy-loaded on first playback.
 - Export MusicXML for notation and Music21-compatible workflows, plus JSON project data.
 - Autosave the last project to IndexedDB.
-- Show the app version, build commit, live main commit, GitHub star link, and PayPal support link.
+- Show the app version, live main commit, GitHub star link, and PayPal support link.
 
 ## Architecture
 

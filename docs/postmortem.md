@@ -10,7 +10,7 @@ Repository: https://github.com/baditaflorin/hum-to-orchestra
 
 Hum-to-Orchestra v0.1.0 is a static GitHub Pages app that records or imports a hum, extracts a pitch contour in the browser, turns it into quantized notes, arranges it into five ensemble styles, plays the result with Tone.js, and exports MusicXML or JSON.
 
-The page also shows the app version, build commit, live main commit, GitHub repository link, and PayPal support link.
+The page also shows the app version, live main commit, GitHub repository link, and PayPal support link.
 
 ## Was Mode A Correct?
 
@@ -28,7 +28,7 @@ The core value works without auth, shared persistence, private inference, runtim
 
 ## What Did Not Work
 
-- The first Pages build showed `build uncommitted` because it was created before the first git commit existed. A follow-up publishing commit fixed the live metadata.
+- The first Pages build showed `build uncommitted` because it was created before the first git commit existed. The final implementation uses GitHub's public commit API for live commit display, avoiding commit-derived dirty builds.
 - A generic static server did not mimic GitHub Pages project paths. A small preview server was added for `/hum-to-orchestra/`.
 
 ## What Surprised Us

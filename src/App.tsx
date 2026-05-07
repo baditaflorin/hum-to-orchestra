@@ -197,7 +197,7 @@ export function App(): ReactElement {
           <div>
             <h1>Hum-to-Orchestra</h1>
             <p>
-              v{buildInfo.version} · build {buildInfo.buildCommit}
+              v{buildInfo.version} · commit {liveCommit?.shortSha ?? buildInfo.buildCommit}
             </p>
           </div>
         </div>

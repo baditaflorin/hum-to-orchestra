@@ -1,18 +1,7 @@
 import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
-import { execSync } from 'node:child_process';
 import { defineConfig } from 'vite';
 import packageJson from './package.json' with { type: 'json' };
-
-function readCommit(): string {
-  try {
-    return execSync('git rev-parse --short HEAD', { stdio: ['ignore', 'pipe', 'ignore'] })
-      .toString()
-      .trim();
-  } catch {
-    return 'uncommitted';
-  }
-}
 
 export default defineConfig({
   base: process.env.VITE_PUBLIC_BASE ?? '/hum-to-orchestra/',
@@ -40,7 +29,7 @@ export default defineConfig({
   },
   define: {
     __APP_VERSION__: JSON.stringify(packageJson.version),
-    __GIT_COMMIT__: JSON.stringify(process.env.VITE_GIT_COMMIT ?? readCommit()),
+    __GIT_COMMIT__: JSON.stringify(process.env.VITE_GIT_COMMIT ?? 'offline'),
     __REPOSITORY_URL__: JSON.stringify('https://github.com/baditaflorin/hum-to-orchestra'),
     __PAYPAL_URL__: JSON.stringify('https://www.paypal.com/paypalme/florinbadita')
   }
