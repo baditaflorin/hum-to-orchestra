@@ -1,0 +1,44 @@
+# OS and editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Go
+bin/
+vendor/
+*.test
+coverage.out
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Build/test output
+dist/
+dist-data/
+tmp/
+coverage/
+test-results/
+playwright-report/
+*.log
+
+# Keep docs/ tracked because GitHub Pages publishes from main /docs.
+!docs/

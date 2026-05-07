@@ -1,0 +1,18 @@
+{
+  "name": "Hum-to-Orchestra",
+  "short_name": "Hum Orchestra",
+  "description": "Hum a melody and hear it arranged as quartet, brass, baroque, electronic, or full orchestra.",
+  "start_url": "/hum-to-orchestra/",
+  "scope": "/hum-to-orchestra/",
+  "display": "standalone",
+  "background_color": "#141414",
+  "theme_color": "#141414",
+  "icons": [
+    {
+      "src": "/hum-to-orchestra/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

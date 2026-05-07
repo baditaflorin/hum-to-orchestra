@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Hum-to-Orchestra icon">
+  <rect width="128" height="128" rx="24" fill="#141414"/>
+  <path d="M28 77c10-30 21-30 32 0s22 30 40 0" fill="none" stroke="#4e9f8f" stroke-width="10" stroke-linecap="round"/>
+  <path d="M43 38v52" stroke="#f1c85b" stroke-width="8" stroke-linecap="round"/>
+  <path d="M43 38h38v14H43z" fill="#f1c85b"/>
+  <circle cx="37" cy="91" r="12" fill="#e66b5b"/>
+  <circle cx="82" cy="93" r="12" fill="#9a78d0"/>
+</svg>

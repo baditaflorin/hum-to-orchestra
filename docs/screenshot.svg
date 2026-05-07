@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-label="Hum-to-Orchestra interface screenshot">
+  <rect width="1200" height="720" fill="#141414"/>
+  <path d="M0 0h1200v720H0z" fill="#141414"/>
+  <path d="M0 0h1200v720H0z" fill="url(#a)" opacity=".55"/>
+  <defs>
+    <linearGradient id="a" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#2b6c66"/>
+      <stop offset=".55" stop-color="#141414"/>
+      <stop offset="1" stop-color="#9a4c3d"/>
+    </linearGradient>
+  </defs>
+  <rect x="34" y="28" width="1132" height="70" rx="8" fill="#1d1d1d" stroke="#3f3932"/>
+  <circle cx="73" cy="63" r="20" fill="#f1c85b"/>
+  <text x="108" y="58" fill="#f7f2e8" font-family="Arial" font-size="24" font-weight="700">Hum-to-Orchestra</text>
+  <text x="108" y="81" fill="#bcb3a7" font-family="Arial" font-size="14">v0.1.0 · build live</text>
+  <rect x="880" y="45" width="124" height="34" rx="8" fill="#262626" stroke="#4e9f8f"/>
+  <text x="899" y="68" fill="#f7f2e8" font-family="Arial" font-size="14">Star on GitHub</text>
+  <rect x="1020" y="45" width="112" height="34" rx="8" fill="#332a18" stroke="#f1c85b"/>
+  <text x="1046" y="68" fill="#f7f2e8" font-family="Arial" font-size="14">Support</text>
+  <rect x="34" y="122" width="320" height="560" rx="8" fill="#1b1b1b" stroke="#3f3932"/>
+  <text x="58" y="162" fill="#f1c85b" font-family="Arial" font-size="13" font-weight="700">INPUT</text>
+  <rect x="58" y="188" width="130" height="44" rx="8" fill="#2b6c66" stroke="#4e9f8f"/>
+  <text x="84" y="216" fill="#f7f2e8" font-family="Arial" font-size="15" font-weight="700">Record Hum</text>
+  <rect x="202" y="188" width="128" height="44" rx="8" fill="#252525" stroke="#4c4740"/>
+  <text x="231" y="216" fill="#f7f2e8" font-family="Arial" font-size="15">Demo Hum</text>
+  <text x="58" y="276" fill="#f1c85b" font-family="Arial" font-size="13" font-weight="700">ARRANGEMENT</text>
+  <g fill="#262626" stroke="#4c4740">
+    <rect x="58" y="296" width="272" height="54" rx="8"/>
+    <rect x="58" y="360" width="272" height="54" rx="8"/>
+    <rect x="58" y="424" width="272" height="54" rx="8"/>
+    <rect x="58" y="488" width="272" height="54" rx="8"/>
+    <rect x="58" y="552" width="272" height="54" rx="8"/>
+  </g>
+  <rect x="58" y="296" width="272" height="54" rx="8" fill="#253532" stroke="#4e9f8f"/>
+  <g fill="#f7f2e8" font-family="Arial" font-size="15" font-weight="700">
+    <text x="76" y="329">Quartet</text><text x="76" y="393">Brass</text><text x="76" y="457">Baroque</text><text x="76" y="521">Electronic</text><text x="76" y="585">Orchestra</text>
+  </g>
+  <rect x="378" y="122" width="788" height="178" rx="8" fill="#1b1b1b" stroke="#3f3932"/>
+  <text x="404" y="160" fill="#f1c85b" font-family="Arial" font-size="13" font-weight="700">TRANSCRIPTION</text>
+  <g stroke="#393939">
+    <path d="M404 206h728M404 236h728M404 266h728"/>
+  </g>
+  <path d="M416 262c34-88 62-88 92-24s57 67 94-16 70-74 102-4 65 71 112-25 82-86 122 0 72 78 118 5" fill="none" stroke="#f1c85b" stroke-width="8" stroke-linecap="round"/>
+  <rect x="378" y="324" width="788" height="358" rx="8" fill="#1b1b1b" stroke="#3f3932"/>
+  <text x="404" y="363" fill="#f1c85b" font-family="Arial" font-size="13" font-weight="700">SCORE</text>
+  <g font-family="Arial" font-size="14" fill="#f7f2e8">
+    <text x="404" y="415">Violin I</text><text x="404" y="475">Violin II</text><text x="404" y="535">Viola</text><text x="404" y="595">Cello</text>
+  </g>
+  <g fill="#262626" stroke="#3f3932">
+    <rect x="500" y="386" width="620" height="42" rx="8"/>
+    <rect x="500" y="446" width="620" height="42" rx="8"/>
+    <rect x="500" y="506" width="620" height="42" rx="8"/>
+    <rect x="500" y="566" width="620" height="42" rx="8"/>
+  </g>
+  <g fill="#e66b5b"><rect x="520" y="398" width="78" height="18" rx="9"/><rect x="620" y="392" width="96" height="18" rx="9"/><rect x="745" y="400" width="70" height="18" rx="9"/><rect x="850" y="388" width="160" height="18" rx="9"/></g>
+  <g fill="#f19b73"><rect x="520" y="462" width="78" height="18" rx="9"/><rect x="620" y="456" width="96" height="18" rx="9"/><rect x="745" y="464" width="70" height="18" rx="9"/><rect x="850" y="452" width="160" height="18" rx="9"/></g>
+  <g fill="#c75f84"><rect x="520" y="524" width="190" height="18" rx="9"/><rect x="745" y="520" width="265" height="18" rx="9"/></g>
+  <g fill="#b3484d"><rect x="520" y="586" width="190" height="18" rx="9"/><rect x="745" y="586" width="265" height="18" rx="9"/></g>
+</svg>

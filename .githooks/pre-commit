@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+npm run lint
+npx tsc -b --pretty false
+
+if find . -name '*.go' -not -path './node_modules/*' -not -path './docs/*' | grep -q .; then
+  gofmt -w $(find . -name '*.go' -not -path './node_modules/*' -not -path './docs/*')
+  go vet ./...
+  golangci-lint run
+fi
+
+gitleaks protect --staged --verbose
